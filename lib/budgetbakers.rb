@@ -1,6 +1,7 @@
 require 'budgetbakers/version'
 require 'rubygems' if RUBY_VERSION < '1.9'
 require 'httparty'
+require 'exceptions'
 require 'awesome_print'
 
 module Budgetbakers
@@ -56,7 +57,7 @@ module Budgetbakers
       raise MissingParams unless required_params.all? { |p| options[p] }
       account_id = @accounts[options[:account_name]]
       raise AccountNotFound if account_id.nil?
-      currency_id = @accounts[options[:currency]]
+      currency_id = @currencies[options[:currency] || 'ILS']
       raise UnknownCurrency if currency_id.nil?
       category_name = options[:category_name]
       category_id = @categories[category_name] || create_category(category_name)
@@ -66,7 +67,7 @@ module Budgetbakers
               'accountId': account_id,
               'currencyId': currency_id,
               'amount': options[:amount],
-              'paymentType': options[:payment_type] || 'credit',
+              'paymentType': options[:payment_type] || 'credit_card',
               'date': options[:date],
               'note': options[:note] || '',
           }
@@ -92,14 +93,13 @@ module Budgetbakers
     def get(url, options={})
       @headers.merge!(options[:additional_headers]) if options[:additional_headers]
       res = self.class.get(url, headers: @headers)
-      raise InvalidResponse unless res.code == 200
       res
+      raise InvalidResponse unless res.code == 200
     end
 
     def post(url, options={})
       @headers.merge!(options[:additional_headers]) if options[:additional_headers]
       res = self.class.post(url, headers: @headers, body: options[:body])
-      raise InvalidResponse unless res.code == 201
       res
     end
   end
