@@ -48,6 +48,23 @@ module Budgetbakers
       get('/records')
     end
 
+    def dump_records_to_file
+      records = list_records
+      iaccounts = @accounts.invert
+      icurrencies = @currencies.invert
+      icategories = @categories.invert
+      CSV.open('WalletDumpFile.csv', 'w') do |csv|
+        csv << [:date, :category, :account, :currency, :payment_type, :amount, :note]
+        records.each { |r|
+          csv << [r['date'],
+                  icategories[r['categoryId']],
+                  iaccounts[r['accountId']],
+                  icurrencies[r['currencyId']],
+                  r['paymentType'], r['amount'], r['note']]
+        }
+      end
+    end
+
     def list_categories
       res = get('/categories')
       res.each { |v|
