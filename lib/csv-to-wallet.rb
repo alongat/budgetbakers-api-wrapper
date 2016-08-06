@@ -18,16 +18,14 @@ module CsvToWallet
         category = gets
         @category_map[name] = category.chomp!
       end
-      body = {
-          category_name: category,
-          account_name: 'Bank account',
-          amount: flip_amount ? 0-amount.to_i : amount,
-          date: fix_date || date,
-          note: name
-      }
+      body = { category_name: category,
+               account_name: 'Bank account',
+               amount: flip_amount ? 0 - amount.to_i : amount,
+               date: fix_date || date,
+               note: name }
       api.create_record(body)
     end
-  rescue Exception => e
+  rescue StandardError => e
     puts e
   ensure
     write_name_category_map
@@ -35,16 +33,16 @@ module CsvToWallet
 
   MAP_FILENAME = 'CATMAP.csv'.freeze
 
-  def self.load_name_category_map(filename=MAP_FILENAME)
+  def self.load_name_category_map(filename = MAP_FILENAME)
     @category_map = {}
-    CSV.foreach(filename) { |row| @category_map[row[0]]=row[1] }
+    CSV.foreach(filename) { |row| @category_map[row[0]] = row[1] }
   rescue
     @category_map
   end
 
-  def self.write_name_category_map(filename=MAP_FILENAME)
+  def self.write_name_category_map(filename = MAP_FILENAME)
     CSV.open(filename, 'w') do |csv|
-      @category_map.each { |x,y| csv << [x,y] }
+      @category_map.each { |x, y| csv << [x,y] }
     end
   end
 end
