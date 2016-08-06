@@ -5,7 +5,7 @@ require 'date'
 # DATE,NAME,AMOUNT
 
 module CsvToWallet
-  def self.push_csv_to_wallet(filename, email, fix_date=nil, apikey=nil, flip_amount=false)
+  def self.push_csv_to_wallet(filename, email, fix_date=nil, apikey=nil, flip_amount=true)
     api = Budgetbakers::API.new(email, apikey)
     load_name_category_map
     CSV.foreach(filename) do |row|
