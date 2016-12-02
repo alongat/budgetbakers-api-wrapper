@@ -118,6 +118,7 @@ module Budgetbakers
       @headers.merge!(options[:additional_headers]) if options[:additional_headers]
       res = self.class.get(url, headers: @headers)
       unless res.code == 200
+        ap res
         raise InvalidResponse
       end
       res
@@ -127,6 +128,7 @@ module Budgetbakers
       @headers.merge!(options[:additional_headers]) if options[:additional_headers]
       res = self.class.post(url, headers: @headers, body: options[:body])
       unless res.code == 201
+        ap res
         raise InvalidResponse
       end
       res

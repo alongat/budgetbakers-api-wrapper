@@ -5,14 +5,18 @@ require 'date'
 # DATE,NAME,AMOUNT
 
 module CsvToWallet
-  def self.push_csv_to_wallet(filename, email, fix_date=nil, apikey=nil, flip_amount=true)
+  def self.push_csv_to_wallet(filename, email, apikey, params={})
+    fix_date = params[:fixed_date]
+    default_category = params[:default_category]
+    flip_amount = params[:flip_amount] || true
+
     api = Budgetbakers::API.new(email, apikey)
     load_name_category_map
-    CSV.foreach(filename) do |row|
+    CSV.foreach(filename, { :col_sep => "," } ) do |row|
       date = row[0]
       name = row[1]
       amount = row[2]
-      category = @category_map[name]
+      category = default_category || @category_map[name]
       if category.nil?
         puts "Enter category for #{name} | #{name.reverse}:"
         category = gets
@@ -20,7 +24,7 @@ module CsvToWallet
       end
       body = { category_name: category,
                account_name: 'Bank account',
-               amount: flip_amount ? 0 - amount.to_i : amount,
+               amount: flip_amount ? 0 - amount.to_f : amount,
                date: fix_date || date,
                note: name }
       api.create_record(body)
