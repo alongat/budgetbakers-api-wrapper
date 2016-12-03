@@ -1,185 +1,220 @@
-PAYPAL *PT PWYNT,Other
-PAYPAL *PANECO,Wedding
-PAYPAL *PATREON PATREO,Alon
-PAYPAL *T. NORTHRUP,Alon
-Audible,alon
-GOOGLE *Music,alon
-PAYPAL *ERLPS,Other
-PAYPAL *THREADLESS,alon
-GOOGLE *Google Storage,alon
-PAYPAL *GADGETWRAPS,alon
-RECREATION.GOV,vacation
-קלבוני ממתקים,Eating out
-KICKSTARTER PEBBLE 2 T,alon
-חדר האוכל,Eating out
-סופר פארם רמת אביב ג',Groceries
-AM-PM ברודצקי תא,Groceries
-ביתא קפה,Eating out
-סופר פארם רמת אביב,Groceries
-תחנת רכבת עתלית,Transport
-סגפרדו-מגל מזרח כביש 6,Eating out
-מש - קר בעמ,Groceries
-רשת כוורת בצהל,Groceries
+paypal *pt pwynt,unknown
+paypal *paneco,wedding
+paypal *patreon patreo,alon
+paypal *t. northrup,alon
+audible,audio books
+google *music,music
+paypal *erlps,other
+paypal *threadless,alon
+google *google storage,pc other
+paypal *gadgetwraps,alon
+recreation.gov,vacation
+קלבוני ממתקים,eating out
+kickstarter pebble 2 t,alon
+חדר האוכל,eating out
+סופר פארם רמת אביב ג',groceries
+am-pm ברודצקי תא,groceries
+ביתא קפה,eating out
+סופר פארם רמת אביב,groceries
+תחנת רכבת עתלית,transport
+סגפרדו-מגל מזרח כביש 6,eating out
+מש - קר בעמ,groceries
+רשת כוורת בצהל,groceries
 דלק גולני דרום,gas
-חומוס אליהו גשר הזיו,Eating out
+חומוס אליהו גשר הזיו,eating out
 דלק מנטה נין התבור,gas
-10 ביס,Eating out
-תמרה יוגורט,Eating out
-פסטה בסטה תל אביב,Eating out
-גו נודלס,Eating out
-דווקא גורמה,Groceries
-מאה קפה,Groceries
-שם טוב,Eating out
-בהדונס החומוס והפול,Eating out
-באלי אנינגרה,Eating out
+10 ביס,eating out
+תמרה יוגורט,eating out
+פסטה בסטה תל אביב,eating out
+גו נודלס,eating out
+דווקא גורמה,groceries
+מאה קפה,groceries
+שם טוב,eating out
+בהדונס החומוס והפול,eating out
+באלי אנינגרה,eating out
 הוצאת עיתון הארץ-אינ,news
-מוזס מסעדה,Eating out
-ENAPAJ EMOH IHSUS EZ,Eating out
+מוזס מסעדה,eating out
+enapaj emoh ihsus ez,eating out
 תחנת רמת אביב מס' 1 בעמ,gas
-השומר 1,Eating out
-PM AM דרך נמיר,Groceries
-הכובשים,Eating out
-המלביה,Eating out
-רב קו אונליין,Transport
-EROIFETNOM LETOH,Eating out
-בית המשקאות של אליאסי,Groceries
-סופר פארם מגדל שלום,Groceries
-B בזק - הוראת קבע,internet
-trillcom,Eating out
-תן ביס,Eating out
-TTEG,Transport
-צומת ספרים נמל תא,Other
-גלידת נווה צדק,Eating out
-מועדון הקצינים של ג'ירף,Eating out
-שרותי בריאות כללית הוק,Health
+השומר 1,eating out
+pm am דרך נמיר,groceries
+הכובשים,eating out
+המלביה,eating out
+רב קו אונליין,transport
+eroifetnom letoh,eating out : work
+בית המשקאות של אליאסי,groceries
+סופר פארם מגדל שלום,groceries
+b בזק - הוראת קבע,internet
+trillcom,eating out
+תן ביס,eating out
+tteg,taxi
+צומת ספרים נמל תא,other
+גלידת נווה צדק,eating out
+מועדון הקצינים של ג'ירף,eating out
+שרותי בריאות כללית הוק,health
 הארץ עיתון יומי,news
-HOT,internet
-פיצה האט - רמת אביב,Eating out
-סופר אלונית גשר הזיו.,Groceries    
-מרקט,Eating out
-רולדין ברודצקי,Groceries
-לחם שולה,Groceries
-עלים ירוקים-אוניברסיטה,Eating out
-מפעיל בעמ,Other
-האחים,Eating out
-pet point,Bulli
-יוסף החומוסייה רמת אביב,Eating out
-סואי,Eating out
-PAYPAL *SLMHTHBWRH2,Other
-PAYPAL *BUYME GIFT,Other
-PAYPAL *KIEZELFACES,Alon
-עלי קרוואן,Eating out : work
+hot,internet
+פיצה האט - רמת אביב,eating out
+מרקט,eating out
+רולדין ברודצקי,groceries
+לחם שולה,groceries
+עלים ירוקים-אוניברסיטה,eating out
+מפעיל בעמ,other
+האחים,eating out
+pet point,bulli
+יוסף החומוסייה רמת אביב,eating out
+סואי,eating out
+paypal *slmhthbwrh2,unknown
+paypal *buyme gift,shopping other
+paypal *kiezelfaces,alon
+עלי קרוואן,eating out : work
 הפוטו,other
 התיאלנדית בסמטת סיני,eating out
-לחמים מאפיה ואספרסו,Groceries
-מזרח ומערב חנויות,Groceries
-SREGRUB ACIREMA,Eating out : work
-משק ברזילאי בעמ,Eating out : work
-בר יהודה המכבי 63,Eating out
-ארומה רוטשילד 22,Eating out : work
-שרונה בירגארדן בעמ,Eating out
-וניליה,Eating out
+לחמים מאפיה ואספרסו,groceries
+מזרח ומערב חנויות,groceries
+sregrub acirema,eating out
+משק ברזילאי בעמ,eating out : work
+בר יהודה המכבי 63,eating out
+ארומה רוטשילד 22,eating out : work
+שרונה בירגארדן בעמ,eating out
+וניליה,eating out
 יאיר שירותים,other
-BBBיגאל אלון,Eating out
-פרונטו-אופרה איטליאנ,Eating out : work
-אלאמו,Vacation
+bbbיגאל אלון,eating out
+פרונטו-אופרה איטליאנ,eating out : work
+אלאמו,vacation
 שבלול,other
-AIVE ATSAP,Eating out
-טפאלה אלכוהוליית רחוב עירונית,Eating out
-ENNOTERB,Other
-סאלוף ובניו בעמ,Eating out : work
-נון סטופ מרקט,Groceries
+aive atsap,eating out
+טפאלה אלכוהוליית רחוב עירונית,eating out
+ennoterb,unknown
+סאלוף ובניו בעמ,eating out : work
+נון סטופ מרקט,groceries
 פוטו פילם,alon
-BEW AKINAPAJ,Eating out
-קולור טאצ בעמ,Other
+bew akinapaj,eating out
+קולור טאצ בעמ,other
 סופר פארם צייטלין תל אביב,health
-חברת החשמל לישראל בעמ,Electric bill
-OCITSUR,Eating out : work
-רוטשילד 12,Eating out : work
-ננוצקה,Eating out : work
-מילה,Eating out
-פורט סעיד,Eating out
-מא פאו,Eating out
-וולפנייט מכבי,Eating out
-BIKE -MYגמא,Alon
-גולן טלקום,Phone
-אר קפה קניון אביב,Groceries
-דלק מנטה גיבורי ישראל,Gas
-סוהו קולקשן,Other
-תחנת רכבת האוניברסיטה,Transport
-עופרי בס קוסמטיקס,Rotem
-לאוקסיטן,Rotem
-טופ שופ רמת אביב,Rotem
-LTD ALLE SWIMWEAR-צ,Rotem
-GETT,Taxi
-AM-PM ברודצקי ביתא,Groceries
-BRETONNE,Other
-ציון פירות וירקות,Groceries
-טאגור סנטר,House Repair shop
-שרותי בריאות כללית הוקר,Health
-HSIRI SMOOLB YLLOM,Eating Out
-מסעדת מנדלה,Eating Out
-זיכוי עמלת המרה לשחי,Other
-מתיתיהו,Eating Out
-תולעת ספרים מזאה,Eating Out : work
-איקאה-ריהוט ועיצוב הבית, Home
-חברת החשמל לישראל בעמב,Electric Bill
-בוטיק סנטרל,Groceries
-לה רפובליקה,Eating out : work
-עגבניה אבן גבירו ל ב,Eating Out
-יין מילנו,Unknown
-קרביץ ישראל,Unknown
-diego san,Eating Out : work
-NUB EHT,Eating Out : work
-רוזינקא,Eating Out : work
-שופרסל שלי רמת אביב א',Groceries
-היפר טוי דיזינגוף,Shopping - Other
-חומוס השוק,Eating Out : work
-URBAN תל אביב,Home
-פילבו מחסני היבואן בעמי,Home
-הטריפולטאית של בכור בעמט,Eating Out : work
-גוד פארם,Drug Store
-PAYPAL *GRYNLND BM,Unknown
-PAYPAL *MEI-AVIVIM,Water Bill
-PAYPAL *PATREON,Alon
-Amazon web services,Alon
-איסתא ישראל חורב,Vacation
-מלח הארץ י.ט. רושה,Groceries
-סניף ראשי - תאנ,Unknown
-כספונט,Cash
-PAYPAL *AIRBNB,Vaction
-PAYPAL *UNITEDPROPE,Unknonw
-PAYPAL *KMA,Unknown
-PAYPAL *PHONECOVERL,Alon
-PAYPAL *DIGIBUYSLTD,Unknown
-GOOGLE *Chrome Web Str,Alon
-PAYPAL *247SHOP,Unknown
-GOOGLE *Wallet,Unknown
-EL AL AIR,Vaction
-TM *THE BOOK OF MORMON,USA Vaction
-ארטה אמנות הגלידה האיטלקית בעמר,Eating Out
-תבליני הדור השלישי ב,Groceries
-אלון הילטון,Gas
-שלמה תחבורה )2007( בעמל,Car Rental
-שרונה בירגארדן בעמר,Eating Out
-כללית חול - אינטרנט,Vacation
-כניסה לטרקלין דן נתבגנ,Vacation
-סטימצקי-דיוטי פרי ספרים,Vacation
-NOSDRAHCIR SEMAJ,Vacation
-משק ברזילאי בעמש,Eating Out : work
-גי'רף גריל,Eating Out
-שוקולטה,Eating Out
-עלים ירוקים,Eating Out
-מפעיל בעמפ,University
-תחנת רכבת חוף הכרמל,Train
-באג דיונון תאא,University
-מזנון אבן גבירול,Eating Out
-שופרסל אקספרס יהודה מכבי,Groceries
-משק חביביאן בעמש,Groceries
-מנהרות הכרמל-שער אגרה,Car - Other
-שלמה תחבורה (2007) בעמל,Car Rental
-אופטיקה רואים שקוף,Shopping - Other
-תחנת רכבת - נתבגח,Train
-מש - קר בעמש,Groceries - other
-הקליניקה מרכז וטרינר,Bulli
-וטרינר עיריית תאטר,Bulli
+חברת החשמל לישראל בעמ,electric bill
+ocitsur,eating out : work
+רוטשילד 12,eating out : work
+ננוצקה,eating out : work
+מילה,eating out
+פורט סעיד,eating out
+מא פאו,eating out
+וולפנייט מכבי,eating out
+bike -myגמא,shopping other
+גולן טלקום,phone
+אר קפה קניון אביב,groceries
+דלק מנטה גיבורי ישראל,gas
+סוהו קולקשן,other
+תחנת רכבת האוניברסיטה,transport
+עופרי בס קוסמטיקס,rotem
+לאוקסיטן,rotem
+טופ שופ רמת אביב,rotem
+ltd alle swimwear-צ,unknown
+gett,taxi
+am-pm ברודצקי ביתא,groceries
+bretonne,unknown
+ציון פירות וירקות,groceries
+טאגור סנטר,house repair shop
+שרותי בריאות כללית הוקר,health
+hsiri smoolb yllom,eating out
+מסעדת מנדלה,eating out
+זיכוי עמלת המרה לשחי,other
+מתיתיהו,eating out
+תולעת ספרים מזאה,eating out : work
+איקאה-ריהוט ועיצוב הבית, home
+חברת החשמל לישראל בעמב,electric bill
+בוטיק סנטרל,groceries
+לה רפובליקה,eating out : work
+עגבניה אבן גבירו ל ב,eating out
+יין מילנו,unknown
+קרביץ ישראל,unknown
+diego san,eating out : work
+nub eht,eating out : work
+רוזינקא,eating out : work
+שופרסל שלי רמת אביב א',groceries
+היפר טוי דיזינגוף,shopping - other
+חומוס השוק,eating out : work
+urban תל אביב,home
+פילבו מחסני היבואן בעמי,home
+הטריפולטאית של בכור בעמט,eating out : work
+גוד פארם,drug store
+paypal *grynlnd bm,unknown
+paypal *mei-avivim,water bill
+paypal *patreon,charity
+amazon web services,alon
+איסתא ישראל חורב,vacation
+מלח הארץ י.ט. רושה,groceries
+סניף ראשי - תאנ,unknown
+כספונט,cash
+paypal *airbnb,vacation
+paypal *unitedprope,unknown
+paypal *kma,shopping ebay
+paypal *phonecoverl,shopping ebay
+paypal *digibuysltd,shopping ebay
+google *chrome web str,shopping other
+paypal *247shop,shopping ebay
+google *wallet,unknown
+el al air,vacation
+tm *the book of mormon,usa vaction
+ארטה אמנות הגלידה האיטלקית בעמר,eating out
+תבליני הדור השלישי ב,groceries
+אלון הילטון,gas
+שלמה תחבורה )2007( בעמל,car rental
+שרונה בירגארדן בעמר,eating out
+כללית חול - אינטרנט,vacation
+כניסה לטרקלין דן נתבגנ,vacation
+סטימצקי-דיוטי פרי ספרים,vacation
+nosdrahcir semaj,vacation
+משק ברזילאי בעמש,eating out : work
+גי'רף גריל,eating out
+שוקולטה,eating out
+עלים ירוקים,eating out
+מפעיל בעמפ,university
+תחנת רכבת חוף הכרמל,train
+באג דיונון תאא,university
+מזנון אבן גבירול,eating out
+שופרסל אקספרס יהודה מכבי,groceries
+משק חביביאן בעמש,groceries
+מנהרות הכרמל-שער אגרה,car - other
+שלמה תחבורה (2007) בעמל,car rental
+אופטיקה רואים שקוף,shopping - other
+תחנת רכבת - נתבגח,train
+מש - קר בעמש,groceries - other
+הקליניקה מרכז וטרינר,bulli
+וטרינר עיריית תאטר,bulli
+חיוב כ.א.ל,other
+משכורת,alon paycheck
+חיוב לכרטיס ויזה 4626,other
+חיוב לכרטיס ויזה 4642,other
+משכורת אונ' תא-מ,rotem paycheck
+כספומט בנק מזרחי טפ 31/10 19:45,cash
+משיכת מזומן ללא כרטיס,cash
+העברה מסקייקיור בעמ חשבון 10-743-0110-015170090,alon paycheck
+גביית מס במקור,other
+זקיפת רבית חובה,other
+זקיפת רבית זכות,other
+זיכוי ממסב,other
+הע. לגיורא רבינובי בסניף 46-504,rent
+העברה מלהב טל,rotem paycheck
+אונ' תא,rotem paycheck
+הע. לנעם דונסקי ול בסניף 10-625,אימונים
+הע. ליותם איזקוב בסניף 13-064,אימונים
+העברה מלגזיאל דוד וגולןי חשבון 12-781-0005-000501387 י החזר עבור מתנה ואוכלי,other
+הפקדת 0002 שיקים .מס' 00029,unknown
+משיכת שיק:0080000021,unknown
+חיוב לאומי קארד,other
+מופת מילו,income alon
+משיכת שיק:0080000020,unknown
+מס-הכנסה ה,other
+חיוב הסתדרות המ,other
+משק חביביאן בעמ,groceries
+סופר אלונית גשר הזיו.,groceries
+תחנת רכבת - נתבג,train
+וטרינר עיריית תא,bulli
+שלמה תחבורה (2007) בעמ,car rental
+ארטה אמנות הגלידה האיטלקית בעמ,eating out
+שלמה תחבורה )2007( בעמ,car rental
+כניסה לטרקלין דן נתבג,vaction
+סניף ראשי - תא,Cash
+PAYPAL *CAMERAMIA,Alon
+בנק הפועלים,Cash
