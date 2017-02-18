@@ -21,7 +21,7 @@ module CsvToWallet
       if category.nil?
         puts "Enter category for #{name} | #{name.reverse}:"
         category = gets
-        @category_map[name] = category.chomp!
+        @category_map[name.downcase] = category.chomp!
       end
       body = { category_name: category,
                account_name: account_name,
