@@ -53,7 +53,7 @@ module Budgetbakers
       iaccounts = @accounts.invert
       icurrencies = @currencies.invert
       icategories = @categories.invert
-      CSV.open('WalletDumpFile.csv', 'w') do |csv|
+      CSV.open("WalletDumpFile-#{Time.now.strftime('%v')}.csv", 'w') do |csv|
         csv << [:date, :category, :account, :currency, :payment_type, :amount, :note]
         records.each { |r|
           csv << [r['date'],
