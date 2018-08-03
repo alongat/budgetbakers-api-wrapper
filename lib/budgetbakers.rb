@@ -82,16 +82,16 @@ module Budgetbakers
       currency_id = @currencies[options[:currency] || 'ILS']
       raise UnknownCurrency if currency_id.nil?
       category_name = options[:category_name]
-      category_id = @categories[category_name.downcase] || create_category(category_name)
+      category_id = @categories[category_name.strip.downcase] || create_category(category_name)
       values = [
           {
-              'categoryId': category_id,
-              'accountId': account_id,
-              'currencyId': currency_id,
-              'amount': options[:amount],
-              'paymentType': options[:payment_type] || 'credit_card',
-              'date': DateTime.parse(options[:date]).iso8601(3),
-              'note': options[:note] || '',
+              categoryId: category_id,
+              accountId: account_id,
+              currencyId: currency_id,
+              amount: options[:amount],
+              paymentType: options[:payment_type] || 'credit_card',
+              date: DateTime.parse(options[:date]).iso8601(3),
+              note: options[:note] || '',
           }
       ]
       ap values.to_json
@@ -108,7 +108,7 @@ module Budgetbakers
           position: 1000
         }.to_json
       response = post('/category', body: values)
-      @categories[name.downcase] = response['id']
+      @categories[name.strip.downcase] = response['id']
       response['id']
     end
 
